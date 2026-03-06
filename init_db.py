@@ -139,7 +139,7 @@ cur.executemany("""
 INSERT INTO students (roll_no, full_name, email, class_id)
 VALUES (?, ?, ?, ?)
 """, [
-    ('2153', 'Student 01', 's2153@gmail.com', 1),
+    ('2153', 'DHOLE NANDINI', 1),
     ('2154', 'Student 02', 's2154@gmail.com', 1),
     ('2155', 'Student 03', 's2155@gmail.com', 1),
     ('2156', 'Student 04', 's2156@gmail.com', 1),
@@ -153,5 +153,6 @@ VALUES (?, ?, ?, ?)
 
 conn.commit()
 conn.close()
+
 
 print("SQLite database created successfully!")
